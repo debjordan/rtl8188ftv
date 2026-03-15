@@ -1,0 +1,28 @@
+# Artefatos de compilação do kernel
+*.ko
+*.o
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+
+# Arquivos temporários do Kbuild
+.*.cmd
+.tmp_versions/
+
+# Firmware (não incluído no repositório)
+firmware/
+
+# Logs e arquivos de debug
+*.log
+dmesg.log
+
+# Arquivos de backup
+*~
+*.bak
+*.swp
+
+# Diretórios de build
+build/
+out/
